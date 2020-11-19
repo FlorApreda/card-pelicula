@@ -1,6 +1,10 @@
 # Resolución del ejercicio `Integrador` Box Model
 
-## ⚙️ Ejercicio
+https://florapreda.github.io/card-pelicula/
+
+---
+
+## ⚙️ Consigna del ejercicio:
 
 Crear una card de películas que tenga el mismo aspecto que la siguiente imagen:
 
