@@ -1,20 +1,79 @@
 body {
-	font-family: 'Montserrat', sans-serif; /*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Open Sans', sans-serif;
 	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
 }
 
 .card {
 	width: 550px;
-	height: 800px;
+	height: 935px;
 	background-color: #1e1b26;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+	overflow: hidden;
 }
 
-.cover {
-	height: 300px;
-	padding-bottom: 20px;
+.poster {
+	width: 550px;
 }
 
 .contenido {
 	padding: 20px;
 	color: #e7e7e7;
+}
+
+.play {
+	border-radius: 8px;
+	color: #f53f40;
+	background-color: transparent;
+	cursor: pointer;
+	text-decoration: none;
+	border: 2px solid #f53f40;
+	padding: 10px 10px;
+	font-size: 24px;
+	margin-top: 20px;
+	padding-right: 35px;
+}
+
+a {
+	text-decoration: none;
+	color: #f53f40;
+}
+
+.icon {
+	width: 15px;
+	padding-right: 10px;
+}
+
+h1,
+h2,
+a {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 46px;
+	font-weight: 400;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.categorias {
+	font-weight: 800;
+	color: #9b9b9b;
+	margin-top: 0;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.sinopsis {
+	color: #9b9b9b;
+}
+
+.actores {
+	font-style: italic;
 }
